@@ -109,23 +109,6 @@ Or using pytest (if installed):
 pytest tests/ -v
 ```
 
-## Project Structure
-
-```
-name-sorter/
-├── src/
-│   ├── __init__.py
-│   └── name_sorter.py          # Core sorting functionality
-├── tests/
-│   ├── __init__.py
-│   └── test_name_sorter.py     # Comprehensive unit tests
-├── name-sorter.py              # Main executable script
-├── unsorted-names-list.txt     # Example input file
-├── requirements.txt            # Dependencies (for testing)
-├── .gitignore                  # Git ignore rules
-└── README.md                   # This file
-```
-
 ## API Reference
 
 ### NameSorter Class
@@ -148,14 +131,6 @@ The program handles various error conditions:
 - **Empty input**: Error if no valid names found in input file
 - **IO errors**: Proper error handling for file read/write operations
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Ensure all tests pass
-6. Submit a pull request
 
 ## License
 

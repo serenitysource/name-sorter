@@ -1,5 +1,2 @@
-# No external dependencies required for the core functionality
-# Only standard library modules are used
-
 # For development and testing (optional)
 pytest>=7.0.0
